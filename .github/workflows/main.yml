@@ -1,7 +1,7 @@
 name: Workflow Evento
 on:
  schedule:
-   - cron: "*/2 * * * *"
+   - cron: "* 2 * * *"
 jobs:
   teste:
     runs-on: ubuntu-latest
